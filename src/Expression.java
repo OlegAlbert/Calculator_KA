@@ -12,9 +12,9 @@ public abstract class Expression {
     static protected String[] validOperations = {"+", "-", "*", "/"};
 
     // пустой конструктор для абстрактного класса
-    protected Expression() {
+    /*protected Expression() {
 
-    }
+    }*/
 
     // конструктор для преобразования цельной строки на операнды и знак операции
     public Expression(String expression) {
